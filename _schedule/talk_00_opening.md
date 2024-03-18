@@ -3,11 +3,11 @@
 sequence_id: 0
 
 # Speaker name
-speaker: Organizers
+speaker: Organisers
 
 # Title of the event
 title: Opening remarks
 
 # Time of the event
-time: 0900 - 0915
+time: 08:30 - 08:35
 ---

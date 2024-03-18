@@ -7,7 +7,7 @@ title: Home
 layout: home
 ---
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
+Standing the Test of Time: Retrospective and Future of World Representations for Lifelong Robotics:
 
 ![](assets/img/banner.jpg)
 
