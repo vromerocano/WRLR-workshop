@@ -3,20 +3,24 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: Standing the Test of Time
 layout: home
 ---
 
-Standing the Test of Time: Retrospective and Future of World Representations for Lifelong Robotics:
+## Retrospective and Future of World Representations for Lifelong Robotics
 
-![](assets/img/banner.jpg)
+1. [**Invited Speakers**:](speakers) Steven Waslander (Toronto) and Luca Carlone (MIT). More info [here](speakers).
+2. [**Organizers**](organizers): Liam Paull, Miguel Saavedra, Pierre-Yves Lajoie, Samer Nashed, Victor Romero-Cano, Malika Meghjani and John Leonard. More info [here](organizers).
+3. [**Schedule**](schedule): October 14 or 15. More info [here](schedule).
+4. [**Call For Papers**](callforpapers): Submit your paper [here](callforpapers)!
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
+![](assets/img/iros_logo.png)
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
+Accurate, informative, and scalable world representations are an essential component of highly autonomous mobile robots and have been an important topic of research for several decades. As robots become more capable, deploying in larger and more dynamic, varied environments, requires for such representations to grow apace. 
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+Handling multiple data modalities, levels of abstraction, and types of information (metric, topological, semantic, objects, etc.) remains challenging --- even more so in so-called lifelong settings where robots must maintain world models over extended periods of time. Over the last forty years, roboticists have used techniques from many machine learning and statistics paradigms for mapping. However, none have been nearly as transformative as deep learning, and we believe we are now at an inflection point in the pace of adoption and proliferation of deep learning techniques for representing models of the world suited to robotics. 
+
+Such a moment offers an opportunity for retrospection: to consider lessons from previous eras of research that have stood the test of time, to carry such lessons forward into an age of research dominated by models relying on latent representations, and to understand in hindsight the limits and blind spots of previous paradigms. Looking forward, we also hope to: make progress understanding the tradeoffs presented by newer learning and representation techniques, share and discuss new examples of state-of-the-art technical approaches for robotic mapping and modeling, and develop a shared view of the new frontier of challenges facing such systems as they are deployed in ever more challenging domains.
+
+![](assets/img/dalle_generated_banner.png)
+

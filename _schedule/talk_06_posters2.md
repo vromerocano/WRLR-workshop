@@ -1,6 +1,6 @@
 ---
 sequence_id: 6
-speaker: Authors
-title: Poster session and coffe break
-time: 11:35 - 12:05
+speaker: ---
+title: Poster session
+time: 11:55 - 12:30
 ---
