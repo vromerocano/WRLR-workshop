@@ -14,8 +14,6 @@ layout: home
 3. [**Schedule**](schedule): October 14 or 15. More info [here](schedule).
 4. [**Call For Papers**](callforpapers): Submit your paper [here](callforpapers)!
 
-![](assets/img/iros_logo.png)
-
 Accurate, informative, and scalable world representations are an essential component of highly autonomous mobile robots and have been an important topic of research for several decades. As robots become more capable, deploying in larger and more dynamic, varied environments, requires for such representations to grow apace. 
 
 Handling multiple data modalities, levels of abstraction, and types of information (metric, topological, semantic, objects, etc.) remains challenging --- even more so in so-called lifelong settings where robots must maintain world models over extended periods of time. Over the last forty years, roboticists have used techniques from many machine learning and statistics paradigms for mapping. However, none have been nearly as transformative as deep learning, and we believe we are now at an inflection point in the pace of adoption and proliferation of deep learning techniques for representing models of the world suited to robotics. 
