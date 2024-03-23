@@ -29,7 +29,10 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-22.04
+    runs-on: int-runner-set
+    container:
+      image: ci-image:v1.0.0
+      options: --user 1001
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,7 +59,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-22.04
+    runs-on: int-runner-set
     needs: build
     steps:
       - name: Deploy to GitHub Pages
