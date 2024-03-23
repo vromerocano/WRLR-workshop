@@ -29,13 +29,11 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: int-runner-set
-    container:
-      image: ci-image:v1.0.0
-      options: --user 1001
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - run: git config --global --add safe.directory "$PWD"
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
@@ -59,7 +57,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: int-runner-set
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
