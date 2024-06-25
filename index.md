@@ -9,7 +9,7 @@ layout: home
 
 ## Retrospective and Future of World Representations for Lifelong Robotics
 
-1. [**Invited Speakers**:](speakers) Steven Waslander (Toronto) and Luca Carlone (MIT). More info [here](speakers).
+1. [**Invited Speakers**:](speakers) Steven Waslander (Toronto), Margarita Chli (ETH Zurich and UCY) and Luca Carlone (MIT). More info [here](speakers).
 2. [**Organizers**](organizers): Liam Paull, Miguel Saavedra, Pierre-Yves Lajoie, Samer Nashed, Victor Romero-Cano, Malika Meghjani and John Leonard. More info [here](organizers).
 3. [**Schedule**](schedule): October 14 or 15. More info [here](schedule).
 4. [**Call For Papers**](callforpapers): Submit your paper [here](callforpapers)!
